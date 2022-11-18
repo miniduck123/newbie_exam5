@@ -1,2 +1,8 @@
-# newbie_exam5
-Simple exam for newbie
+請注意，題目當中stackover_test.py中，driver fixture已經確定是正確的。請修改其他內容讓程序運作。
+
+題目中是一個測試stackoverflow搜尋匡的測試案例，已經提供input_text檔案，請使用檔案內的測試用字串運行。
+
+預期運作起來後的行為：
+1.打開瀏覽器後，跳轉到stackoverflow的首頁
+2.找到首頁的搜尋匡後，input測試用查詢字串並且查詢
+3.因為stackover flow的機制，會先跳到機器人驗證的畫面，因此要確定跳轉後的頁面網址是機器人驗證的Human verification畫面
